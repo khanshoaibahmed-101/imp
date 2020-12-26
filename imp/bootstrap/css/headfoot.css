@@ -1,0 +1,55 @@
+.top .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.top .nav-link:hover,
+.top .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.top .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+.opacity-0 {
+    opacity: 0 !important;
+}
+
+.opacity-1 {
+    opacity: 0.2 !important;
+}
+
+.opacity-2 {
+    opacity: 0.4 !important;
+}
+
+.opacity-3 {
+    opacity: 0.6 !important;
+}
+
+.opacity-4 {
+    opacity: .8 !important;
+}
+
+.opacity-5 {
+    opacity: 1 !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.top .log:hover {
+    color: white;
+}
+
+.foot .fin,
+.top .fin {
+    background: linear-gradient(to left, #8860d0, #84ceeb);
+}
